@@ -1,5 +1,5 @@
 const express = require("express");
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -18,5 +18,5 @@ mongoose.connect(
 
 
 app.listen(PORT, function(){
-    console.log( ` 🌎  ==>API server now listening on PORT${PORT}`)
+    console.log( ` 🌎  ==>API server now listening on PORT ${PORT}`)
 })
