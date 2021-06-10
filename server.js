@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({extended: true}));
 app.use(express.json())
 
+// mongodb connection
 mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true, useUnifiedTopology: true}, ()=>{
   console.log("db connected")
 })
