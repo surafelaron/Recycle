@@ -15,5 +15,5 @@ app.use(express.json())
 connectDB();
 
 app.listen(PORT, function(){
-    console.log( ` 🌎  ==>API server now listening on PORT ${PORT}`)
+    console.log( ` 🌎  ==>API server now listening on PORT ${PORT}`);
 })
